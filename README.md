@@ -18,6 +18,9 @@ For this project, data was gathered from multiple sources such as:
     Data was also collected by web scraping the Wikipedia page containing historical SpaceX launch information using Python’s BeautifulSoup library and the Requests module.
   
 + ### Data Warngling
+The first step in the data wrangling process was to filter out rockets identified as Falcon 9. The dataset initially contained multiple rocket types, but Falcon 9 was chosen as it had the largest amount of available data. Focusing on a single rocket type helped ensure consistency and reduced potential bias during model training.
+
+Additionally, the dataset contained missing values in the “LandingPad” and “PayloadMass” columns. The null values in PayloadMass were replaced with the column’s mean to maintain data integrity and ensure smoother model performance.
 + ### Exploratory Data Analysis/SQL
 + ### Model Selection
 
