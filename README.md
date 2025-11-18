@@ -7,4 +7,13 @@ Most of the Space Related Organizations cost a lot more finance to send their ro
 For this project, data was gathered from multiple sources such as:
 * SpaceX’s official website
 * Wikipedia page titled “List of Falcon 9 and Falcon Heavy Launches.”
+## Methodology
++ Data Collection
+  As it has been mentioned above that data was collected mainly from the official spaceX website and through web scraping wikipedia this section will go deeper into explaing how the data was gathered and processed.
+  * spaceX API:
+   The SpaceX API data was collected by integrating the API into the codebase using Python’s Requests module. The retrieved data, initially in JSON format, was then converted into a Pandas DataFrame for further analysis and model prediction.
+  
++ Data Warngling
++ Exploratory Data Analysis/SQL
++ Model Selection
 
