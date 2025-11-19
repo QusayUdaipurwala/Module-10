@@ -75,11 +75,23 @@ Additionally, bar charts were utilized to analyze the success rate across differ
       <img width="1551" height="489" alt="image" src="https://github.com/user-attachments/assets/8a8b5845-009a-4184-902f-f10323bf93d2" />
 
    * *Launch Success Yearly Trend*
-
+     
      You can observe that the success rate of launches has shown a steady upward trend since 2013, consistently improving year after year until 2020. This              indicates significant advancements in technology, precision, and operational efficiency over time, leading to a higher rate of successful missions by the end      of the period.
 
      <img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/fa7075db-bc94-4ad6-ae73-eff369153186" />
 
+   * *Launch Sites Displayed on Global Map*
+
+      Folium Circles and markers were used to mark different Launch sites onto the map that was created by the python library folium.
+      All the given Launch sites are in proximity to the equator and all of these sites are very close to the coastal regions.
+
+      <img width="1320" height="670" alt="image" src="https://github.com/user-attachments/assets/1a23dd17-c1d6-4a3b-9586-7355b630d32b" />
+
+   * *Distances between launch sites and its proximities*
+
+      The Polyline function in Folium was used to mark and connect key locations near the launch sites, including the nearest coastal areas, railway lines, and          nearby cities such as Titusville, providing a clear visual representation of their proximity to the launch sites.
+
+      <img width="1004" height="381" alt="image" src="https://github.com/user-attachments/assets/dbc24a80-3727-4c92-bd65-dac53a051444" />
 
 + **EDA using SQL Queries**
   * *Launch Site Names Begin with 'CCA'*
