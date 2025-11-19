@@ -113,5 +113,23 @@ Additionally, bar charts were utilized to analyze the success rate across differ
     <img width="1022" height="198" alt="image" src="https://github.com/user-attachments/assets/814ad508-7ec2-46a1-b253-79342e0a6172" />
 
 + **Performing EDA Interactive Dashboards**
+  * *Pie chart for success count overall*
+    * KSC LC-39A (Blue) is the primary site for successful launches, accounting for the largest share at 41.7%.
+    * CCAFS LC-40 (Red) is the second most common site for successful launches at 29.2%.
+    * VAFB SLC-4E (Green) accounts for 16.7% of successful launches.
+    * CCAFS SLC-40 (Purple) accounts for the smallest share at 12.5%.
+
+      <img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/a1d8fbb8-23e5-4f01-85b8-1ae652a77af9" />
+
+  * *Pie Chart for The Launch Site with highest Success Ratio*
+    KSC LC-39A Launch Site has the highest launch success ratio copared to the other Launch sites with a success of 73.9%
+
+    <img width="1898" height="642" alt="image" src="https://github.com/user-attachments/assets/15cb49df-2ee5-4a68-a415-a96c4cbd8e38" />
+
+  * *Payload vs. Launch Outcome scatter plot for all sites*
+    The chart visually demonstrates the increase in launch reliability and success rate as SpaceX transitioned to newer and more capable Booster Versions (like        FT, B4, and B5), particularly highlighting the successful handling of heavier payloads by these later versions.
+
+    <img width="1895" height="513" alt="image" src="https://github.com/user-attachments/assets/8f98501c-e37c-4f34-b3b4-e1e7b8561919" />
+
 + ### Model Selection
 
