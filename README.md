@@ -64,11 +64,11 @@ Additionally, bar charts were utilized to analyze the success rate across differ
 + **EDA using python libraries**
 Exploratory Data Analysis (EDA) was performed using Python libraries such as Pandas, Matplotlib, and Seaborn. These tools were primarily used to create       scatter plots between various parameters, including Launch Site, Booster Version, Orbit Type, Flight Number, and Payload Mass. Here are few of the plots that were created during the project:-
 
-*Flight Number vs Launch Site*
+  + *Flight Number vs Launch Site*
 
-The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC 40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
+    The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC       40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
 
-<img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/3a0aa7c9-1432-448f-bab8-0e2d301b8fba" />
+    <img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/3a0aa7c9-1432-448f-bab8-0e2d301b8fba" />
 
 + **EDA using SQL Queries**
 + **Performing EDA Interactive Dashboards**
