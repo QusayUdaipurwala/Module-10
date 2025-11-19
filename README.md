@@ -77,6 +77,12 @@ Now if you observe Payload Mass Vs. Launch Site scatter point chart you will fin
 
 <img width="1551" height="489" alt="image" src="https://github.com/user-attachments/assets/d663e8a6-f21e-4453-b68a-354893e6a073" />
 
+*Launch Success Yearly Trend*
+
+You can observe that the success rate of launches has shown a steady upward trend since 2013, consistently improving year after year until 2020. This indicates significant advancements in technology, precision, and operational efficiency over time, leading to a higher rate of successful missions by the end of the period.
+
+<img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/d14a5a5f-9f97-4650-baa6-f7a9fc4688de" />
+
 
 + **EDA using SQL Queries**
 + **Performing EDA Interactive Dashboards**
