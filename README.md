@@ -62,6 +62,7 @@ Exploratory Data Analysis (EDA) was performed using Python libraries such as Pan
 Additionally, bar charts were utilized to analyze the success rate across different orbit types, while line charts were used to observe yearly trends in rocket success rates, providing valuable insights into SpaceX’s performance over time.
 
 + **EDA using python libraries**
+  
 Exploratory Data Analysis (EDA) was performed using Python libraries such as Pandas, Matplotlib, and Seaborn. These tools were primarily used to create       scatter plots between various parameters, including Launch Site, Booster Version, Orbit Type, Flight Number, and Payload Mass. Here are few of the plots that were created during the project:-
 
   + *Flight Number vs Launch Site*
