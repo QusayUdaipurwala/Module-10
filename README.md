@@ -56,6 +56,12 @@ For this project, data was gathered from multiple sources such as:
 The first step in the data wrangling process was to filter out rockets identified as Falcon 9. The dataset initially contained multiple rocket types, but Falcon 9 was chosen as it had the largest amount of available data. Focusing on a single rocket type helped ensure consistency and reduced potential bias during model training.
 
 Additionally, the dataset contained missing values in the “LandingPad” and “PayloadMass” columns. The null values in PayloadMass were replaced with the column’s mean to maintain data integrity and ensure smoother model performance.
-+ ### Exploratory Data Analysis/SQL
++ ### Exploratory Data Analysis
+Exploratory Data Analysis (EDA) was performed using Python libraries such as Pandas, Matplotlib, and Seaborn. These tools were primarily used to create scatter plots between various parameters, including Launch Site, Booster Version, Orbit Type, Flight Number, and Payload Mass. The main goal of this phase was feature engineering—to identify which variables most strongly influenced the prediction of launch outcomes.
+
+Additionally, bar charts were utilized to analyze the success rate across different orbit types, while line charts were used to observe yearly trends in rocket success rates, providing valuable insights into SpaceX’s performance over time.
+  + **EDA using python libraries**
+  + **EDA using SQL Queries**
+  + **Performing EDA Interactive Dashboards**
 + ### Model Selection
 
