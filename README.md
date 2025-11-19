@@ -60,8 +60,8 @@ Additionally, the dataset contained missing values in the “LandingPad” and �
 Exploratory Data Analysis (EDA) was performed using Python libraries such as Pandas, Matplotlib, and Seaborn. These tools were primarily used to create scatter plots between various parameters, including Launch Site, Booster Version, Orbit Type, Flight Number, and Payload Mass. The main goal of this phase was feature engineering—to identify which variables most strongly influenced the prediction of launch outcomes.
 
 Additionally, bar charts were utilized to analyze the success rate across different orbit types, while line charts were used to observe yearly trends in rocket success rates, providing valuable insights into SpaceX’s performance over time.
-   + **EDA using python libraries**
-   + **EDA using SQL Queries**
-   + **Performing EDA Interactive Dashboards**
+     + **EDA using python libraries**
+     + **EDA using SQL Queries**
+     + **Performing EDA Interactive Dashboards**
 + ### Model Selection
 
