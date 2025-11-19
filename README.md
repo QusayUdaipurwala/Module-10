@@ -9,22 +9,38 @@ For this project, data was gathered from multiple sources such as:
 * Wikipedia page titled “List of Falcon 9 and Falcon Heavy Launches.”
 * The dataset containes attributes that are:
   
-    FlightNumber: Indicates the continuous launch attempts./n
+    FlightNumber: Indicates the continuous launch attempts.
+  
     Date: The date at which the launch was scheduled.
+  
     BoosterVersion: The Booster Version of the Rocket that was launched.
+
     PayloadMass: The payload mass of the rocket that was launched.
+  
     Orbit: The orbit that the rocket was launched to.
-    LaunchSite: The launch site of the rocket.
+  
+    LaunchSite: The launch site of the rocket
+
     Outcome: The outcome of the launch.
+  
     Flights: Binary variable that indicates the successful launch of the rocket.
+  
     GridFins: Binary variable that indicates the presence or absence of grid fins.
+  
     Reused: Boolean variable that indicates whether the rocket was reused.
+  
     Legs: Boolean variable indicating the presence or absence of Legs in the rocket.
+  
     LandingPad: Informing that does the rocket had a landing pad or not.
+  
     ReusedCount: Indicating the amount of times a rocket has been reused.
+  
     Serial: Gives information about the Serial number given to each rocket.
+
     Longitude: Provides information related to the longitude.
+
     Latitude: Provides information related to the latitude.
+
     Class: The target variable that is to be predicted. Its a Binary variable that indicates whether the rocket landed successfully or not.
 ## Methodology
 + ### Data Collection:
