@@ -65,26 +65,28 @@ Additionally, bar charts were utilized to analyze the success rate across differ
   
 Exploratory Data Analysis (EDA) was performed using Python libraries such as Pandas, Matplotlib, and Seaborn. These tools were primarily used to create       scatter plots between various parameters, including Launch Site, Booster Version, Orbit Type, Flight Number, and Payload Mass. Here are few of the plots that were created during the project:-
 
-* *Flight Number vs Launch Site*
+*Flight Number vs Launch Site*
 
 The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC       40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
 
 <img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/3a0aa7c9-1432-448f-bab8-0e2d301b8fba" />
 
-* *Payload vs. Launch Site*
+*Payload vs. Launch Site*
 
 Now if you observe Payload Mass Vs. Launch Site scatter point chart you will find for the VAFB-SLC launch site there are no rockets launched for heavypayload mass(greater than 10000).
 
 <img width="1551" height="489" alt="image" src="https://github.com/user-attachments/assets/d663e8a6-f21e-4453-b68a-354893e6a073" />
 
-* *Launch Success Yearly Trend*
+*Launch Success Yearly Trend*
 
 You can observe that the success rate of launches has shown a steady upward trend since 2013, consistently improving year after year until 2020. This indicates significant advancements in technology, precision, and operational efficiency over time, leading to a higher rate of successful missions by the end of the period.
 
 <img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/d14a5a5f-9f97-4650-baa6-f7a9fc4688de" />
 
-
 + **EDA using SQL Queries**
+  * *Launch Site Names Begin with 'CCA'*
+  * *Total Payload Mass*
+  * *Average Payload Mass by F9 v1.1*   
 + **Performing EDA Interactive Dashboards**
 + ### Model Selection
 
