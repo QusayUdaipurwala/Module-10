@@ -62,24 +62,24 @@ Exploratory Data Analysis (EDA) was performed using Python libraries such as Pan
 Additionally, bar charts were utilized to analyze the success rate across different orbit types, while line charts were used to observe yearly trends in rocket success rates, providing valuable insights into SpaceX’s performance over time.
 
 + **EDA using python libraries**
-  
-* *Flight Number vs Launch Site*
+   * *Flight Number vs. LaunchSite*
+     
+     The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC       40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
 
-The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC       40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
+     <img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/ecbd3ac1-af93-4b23-a1b5-e7296d3a17fc" />
 
-<img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/3a0aa7c9-1432-448f-bab8-0e2d301b8fba" />
+   * *Payload vs. Launch Site*
 
-*Payload vs. Launch Site*
+      Now if you observe Payload Mass Vs. Launch Site scatter point chart you will find for the VAFB-SLC launch site there are no rockets launched for                   heavypayload mass(greater than 10000).
 
-Now if you observe Payload Mass Vs. Launch Site scatter point chart you will find for the VAFB-SLC launch site there are no rockets launched for heavypayload mass(greater than 10000).
+      <img width="1551" height="489" alt="image" src="https://github.com/user-attachments/assets/8a8b5845-009a-4184-902f-f10323bf93d2" />
 
-<img width="1551" height="489" alt="image" src="https://github.com/user-attachments/assets/d663e8a6-f21e-4453-b68a-354893e6a073" />
+   * *Launch Success Yearly Trend*
 
-*Launch Success Yearly Trend*
+     You can observe that the success rate of launches has shown a steady upward trend since 2013, consistently improving year after year until 2020. This              indicates significant advancements in technology, precision, and operational efficiency over time, leading to a higher rate of successful missions by the end      of the period.
 
-You can observe that the success rate of launches has shown a steady upward trend since 2013, consistently improving year after year until 2020. This indicates significant advancements in technology, precision, and operational efficiency over time, leading to a higher rate of successful missions by the end of the period.
+     <img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/fa7075db-bc94-4ad6-ae73-eff369153186" />
 
-<img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/d14a5a5f-9f97-4650-baa6-f7a9fc4688de" />
 
 + **EDA using SQL Queries**
   * *Launch Site Names Begin with 'CCA'*
