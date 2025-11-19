@@ -85,7 +85,11 @@ You can observe that the success rate of launches has shown a steady upward tren
 
 + **EDA using SQL Queries**
   * *Launch Site Names Begin with 'CCA'*
+
     In this case, the LIKE keyword was used in the SQL query to search for the substring 'CCA' within the Launch_Site column. The wildcard symbol '%' was included      to indicate that the substring can appear anywhere within the cell’s value, allowing for flexible pattern matching in the query results.
+
+    <img width="1133" height="670" alt="image" src="https://github.com/user-attachments/assets/aff4da13-8191-4639-8ce8-ee8e7db87cda" />
+
   * *Total Payload Mass*
   * *Average Payload Mass by F9 v1.1*   
 + **Performing EDA Interactive Dashboards**
