@@ -146,5 +146,9 @@ Additionally, bar charts were utilized to analyze the success rate across differ
   <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/5eac6f7f-d739-4029-9bb5-c883052b6521" />
 
   * The key insight from this image is that all four machine learning models (SVM, Logistic Regression, Decision Trees, and K Nearest Neighbors) achieved the          exact same accuracy of 84.0% for the SpaceX dataset they were evaluated on.
+  * The model is highly effective at predicting successful landings, achieving 100% Recall for the "landed" class (it missed zero actual landings). However, the       model is less effective at predicting failures, with a 50% Specificity. It incorrectly predicted a landing three times when the rocket actually failed to          land, leading to a lower overall accuracy of 83.3%.
+
+    <img width="668" height="554" alt="image" src="https://github.com/user-attachments/assets/b1f03427-b38e-4f66-a5e3-c46310f7afbe" />
+
 
 
