@@ -8,6 +8,7 @@ For this project, data was gathered from multiple sources such as:
 * SpaceX’s official website
 * Wikipedia page titled “List of Falcon 9 and Falcon Heavy Launches.”
 * The dataset containes attributes that are:
+  
     FlightNumber: Indicates the continuous launch attempts.
     Date: The date at which the launch was scheduled.
     BoosterVersion: The Booster Version of the Rocket that was launched.
