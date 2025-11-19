@@ -86,12 +86,22 @@ You can observe that the success rate of launches has shown a steady upward tren
 + **EDA using SQL Queries**
   * *Launch Site Names Begin with 'CCA'*
 
-    In this case, the LIKE keyword was used in the SQL query to search for the substring 'CCA' within the Launch_Site column. The wildcard symbol '%' was included      to indicate that the substring can appear anywhere within the cell’s value, allowing for flexible pattern matching in the query results.
+    In this case, the LIKE keyword was used in the SQL query to search for the substring 'CCA' within the Launch_Site column. The wildcard symbol '%' was included     to indicate that the substring can appear anywhere within the cell’s value, allowing for flexible pattern matching in the query results.
 
     <img width="1133" height="670" alt="image" src="https://github.com/user-attachments/assets/aff4da13-8191-4639-8ce8-ee8e7db87cda" />
 
   * *Total Payload Mass*
-  * *Average Payload Mass by F9 v1.1*   
+
+    This SQL query retrieves the sum of all payload masses (in kilograms) from the column payload_mass__kg_ in the table SPACEXTBL. It only includes the rows          where the customer is 'NASA (CRS)', giving the total payload mass launched for that specific customer.
+
+    <img width="942" height="192" alt="image" src="https://github.com/user-attachments/assets/b1e65842-eba3-415b-9d37-a70b016afcb4" />
+
+  * *Average Payload Mass by F9 v1.1*
+
+    The query first filters the rows in the SPACEXTABLE where the Booster_Version equals 'F9 v1.1', and then computes the average value of the payload_mass__kg_       column from those filtered rows.
+
+    <img width="1022" height="198" alt="image" src="https://github.com/user-attachments/assets/814ad508-7ec2-46a1-b253-79342e0a6172" />
+
 + **Performing EDA Interactive Dashboards**
 + ### Model Selection
 
