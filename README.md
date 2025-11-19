@@ -137,4 +137,11 @@ Additionally, bar charts were utilized to analyze the success rate across differ
   * After completing data collection, cleaning, and EDA, the next step was model training. The target variable ‘Class’ was extracted from the dataset and stored       as a NumPy array named ‘Y’, representing the dependent variable to be predicted. Before training, the dataset was divided into training and testing sets using     train_test_split() to ensure proper evaluation of the model’s performance.
   * In this project, four machine learning models were trained and compared to identify the most accurate one. Each model was chosen for its ability to handle         classification tasks efficiently and was trained using the prepared data to predict rocket landing outcomes.
   * The training process utilized GridSearchCV for hyperparameter tuning, allowing the models to test various parameter combinations. This helped in finding the       best-performing configuration that achieved the highest accuracy and minimized overfitting.
+  * The Models used were:
+    * Support Vector Machine.
+    * Classification Trees.
+    * K Nearest Neighbors.
+    * Logistic Regression.
+  * The key insight from this image is that all four machine learning models (SVM, Logistic Regression, Decision Trees, and K Nearest Neighbors) achieved the          exact same accuracy of 84.0% for the SpaceX dataset they were evaluated on.
+
 
