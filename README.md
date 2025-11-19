@@ -150,5 +150,11 @@ Additionally, bar charts were utilized to analyze the success rate across differ
 
     <img width="668" height="554" alt="image" src="https://github.com/user-attachments/assets/b1f03427-b38e-4f66-a5e3-c46310f7afbe" />
 
++ ### Conclusion
+  * This project makes it very clear that as the number of flights are increased so does the success ratio of all the launch sites.
+  * TheKSC LC-39A Launch Site has the highest ratio of success rates compared to the other launch sites.
+  * It is also observed from the payload mass vslaunch site scatter plot that as the payload mass increase the probability of success that the rocket ship will        land also increases.
+  * The success rate was also observed toincrease after the year 2013.
+  * The accuracy of all themodels that were trained gave the same accuracy of 84%.
 
 
