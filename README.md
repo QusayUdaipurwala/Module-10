@@ -142,6 +142,9 @@ Additionally, bar charts were utilized to analyze the success rate across differ
     * Classification Trees.
     * K Nearest Neighbors.
     * Logistic Regression.
+
+  <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/5eac6f7f-d739-4029-9bb5-c883052b6521" />
+
   * The key insight from this image is that all four machine learning models (SVM, Logistic Regression, Decision Trees, and K Nearest Neighbors) achieved the          exact same accuracy of 84.0% for the SpaceX dataset they were evaluated on.
 
 
