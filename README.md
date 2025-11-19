@@ -67,9 +67,9 @@ Exploratory Data Analysis (EDA) was performed using Python libraries such as Pan
 
 *Flight Number vs Launch Site*
 
-    The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC       40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
+The chart visually compares the launch activity and apparent success rates across three different Launch Sites over the sequence of Flight Numbers. CCAFS SLC       40 is the most frequently used site, while KSC LC 39A appears to have the highest success rate with fewer launches.
 
-    <img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/3a0aa7c9-1432-448f-bab8-0e2d301b8fba" />
+<img width="2553" height="489" alt="image" src="https://github.com/user-attachments/assets/3a0aa7c9-1432-448f-bab8-0e2d301b8fba" />
 
 *Payload vs. Launch Site*
 
